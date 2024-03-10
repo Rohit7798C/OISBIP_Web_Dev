@@ -1,0 +1,68 @@
+.main
+{
+    background-color:white;
+    padding: 20px;
+    margin: 100px;
+    font-family:sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    background-color: rgb(124, 240, 111);
+}
+.add
+{
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    background-color:   rgb(14, 39, 205);
+    color: white;
+}
+button{
+    padding: 10px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: greenyellow ;
+    color: black;
+    padding: 5px 10px;
+    margin: 10px;
+}
+input{
+    padding: 10px;
+    width: 150px;
+    border-radius: 5px;
+    
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  span{
+
+    width: 80px;
+    padding: 10px;
+  }
+  
+  #pendingTasks
+  {
+    background-color: rgb(183, 234, 234);
+   margin: 10px;
+
+
+ 
+  }
+  #completedTasks
+  {
+    background-color: rgb(227, 180, 186);
+ 
+  }
+  ul{
+    list-style: none;
+  }
+  h2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+  }
